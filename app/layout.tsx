@@ -6,13 +6,14 @@ import { ClerkProvider } from "@clerk/nextjs";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
-
 export const metadata: Metadata = {
   title: "Inksight | Where PDF Talks",
   description: "PDF Talks",
@@ -27,10 +28,7 @@ export default function RootLayout({
     <ClerkProvider>
 
       <html lang="en">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen h-screen overflow-hidden flex flex-col`}
-        >
-          {children}
+        <body className="antialiased min-h-screen h-screen overflow-hidden flex flex-col">{children}
         </body>
       </html>
     </ClerkProvider>
