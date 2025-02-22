@@ -1,6 +1,6 @@
 import { SignedIn, UserButton } from "@clerk/nextjs";
 import React from "react";
-import Link from "next/link"; // Import Link from Next.js
+import Link from "next/link"; // Import Link
 import { Button } from "./ui/button";
 import { FilePlus2 } from "lucide-react";
 
@@ -15,17 +15,14 @@ function Header() {
           <Button asChild variant="link" className="hidden md:flex">
             <Link href="/dashboard/upgrade">Pricing</Link>
           </Button>
-
           <Button asChild variant="outline">
             <Link href="/dashboard">My Document</Link>
           </Button>
-
           <Button asChild variant="outline">
             <Link href="/dashboard/upload">
               <FilePlus2 className="text-indigo-600" />
             </Link>
           </Button>
-
           <UserButton />
         </div>
       </SignedIn>
