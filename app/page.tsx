@@ -1,39 +1,39 @@
 import Image from "next/image";
-import { BrainCogIcon, EyeIcon, GlobeIcon, Link, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
+import { BrainCogIcon, EyeIcon, GlobeIcon, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const features = [
-  {
-    name: "Store Your PDF Here",
-    description: "Store your PDF files in the cloud",
-    icon: GlobeIcon,
-  },
-  {
-    name: "Blazing Fast Response",
-    description: "Experience blazing fast response time",
-    icon: ZapIcon,
-  },
-  {
-    name: "Chat Memorization",
-    description: "Our intelligent chat memorizes your previous chats",
-    icon: BrainCogIcon,
-  },
-  {
-    name: "Interactive PDF Viewer",
-    description: "Engage with your PDF files like never before",
-    icon: EyeIcon,
-  },
-  {
-    name: "Cloud Backup",
-    description: "Rest easy knowing your data is backed up",
-    icon: ServerCogIcon,
-  },
-  {
-    name: "Responsive Design",
-    description: "Access your files from any device",
-    icon: MonitorSmartphoneIcon,
-  }
-];
+// const features = [
+//   {
+//     name: "Store Your PDF Here",
+//     description: "Store your PDF files in the cloud",
+//     icon: GlobeIcon,
+//   },
+//   {
+//     name: "Blazing Fast Response",
+//     description: "Experience blazing fast response time",
+//     icon: ZapIcon,
+//   },
+//   {
+//     name: "Chat Memorization",
+//     description: "Our intelligent chat memorizes your previous chats",
+//     icon: BrainCogIcon,
+//   },
+//   {
+//     name: "Interactive PDF Viewer",
+//     description: "Engage with your PDF files like never before",
+//     icon: EyeIcon,
+//   },
+//   {
+//     name: "Cloud Backup",
+//     description: "Rest easy knowing your data is backed up",
+//     icon: ServerCogIcon,
+//   },
+//   {
+//     name: "Responsive Design",
+//     description: "Access your files from any device",
+//     icon: MonitorSmartphoneIcon,
+//   }
+// ];
 
 export default function Home() {
   return (
