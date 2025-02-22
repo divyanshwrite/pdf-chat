@@ -24,9 +24,9 @@ function FileUploader() {
                 <input {...getInputProps()} />
                 <div className="flex">
                     {isDragActive ? (
-                        <p className="text-blue-500">Drop the files here... <br/> </p>
+                        <p className="text-blue-500">Drop the files here...</p>
                     ) : (
-                        <p>Drag & drop a PDF here<br/>, or click to select a file</p>
+                        <p>Drag & drop a PDF here, or click to select a file</p>
                     )}
                 </div>
                 {files.length > 0 && (
