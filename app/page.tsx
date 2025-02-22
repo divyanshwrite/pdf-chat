@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BrainCogIcon, EyeIcon, GlobeIcon, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
+// import { BrainCogIcon, EyeIcon, GlobeIcon, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // const features = [
